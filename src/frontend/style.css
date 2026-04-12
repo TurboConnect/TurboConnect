@@ -1,0 +1,57 @@
+.cooldiv {
+  display: block;
+  padding-top: 98px;
+  font-size: large;
+  font-family: Iosevka Charon Mono;
+  text-align: center;
+  color: white;
+}
+.coolnav {
+  display: flex;
+  position: fixed;
+  justify-content: right;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid #3D444D;
+  background-color: #151B23;
+  width: 100%;
+  height: 66px;
+}
+
+.nichebuttons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 68px;
+}
+
+.nichebuttons2 {
+  text-align: center;
+}
+
+button {
+  background-color: whitesmoke;
+  color: black;
+  font-size: medium;
+  font-family: Iosevka Charon Mono;
+  border: 4px solid;
+  padding: 12px 14px;
+  border-radius:20px;
+  margin: 14px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #C7C8CE;
+}
+
+button:active {
+  transition: 0s;
+  background-color: #0D1117;
+  border: 4px solid #ffffff;
+  color: whitesmoke;
+}
+
+body {
+  background-color: #010409;
+}
